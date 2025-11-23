@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Músicas do Boz</title>
+</head>
+<body>
+    <header>
+        <h1 id="logo">
+            <span>Músicas</span>
+            <div class="equalizer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <span>Boz</span>
+        </h1>
+        <div class="search-container">
+            <span class="search-icon">🎵</span>
+            <input type="text" id="campo-busca" placeholder="Pesquise por música ou artista..." onkeyup="iniciarBusca()">
+            <button id="botao-busca" onclick="iniciarBusca()"></button>
+        </div>
+    </header>
+
+    <main>
+        <section class="card-container">
+            <!-- <article class="card"> -->
+                <!-- <h2>Meu mês | Músicas e Artistas</h2>
+                <p>Outubro 2025</p>
+                <p>Aqui você encontra as músicas e artistas mais ouvidos por mim no mês!</p>
+                <p>Músicas mais ouvidas</p>
+                <a href="https://open.spotify.com/intl-pt/track/0LqbLHWFiy0qTfpk1Q1Ggc?si=c6962303c56f4488" target="_blank">1º Gameboy | KATSEYE</a>
+                <p></p>
+                <a href="https://open.spotify.com/intl-pt/track/1CPZ5BxNNd0n0nF4Orb9JS?si=bd76c35a7b744ae3" target="_blank">2º Golden | HUNTR/X (KPop Demon Hunters Cast)</a>
+                <p></p>
+                <a href="https://open.spotify.com/intl-pt/track/1j15Ar0qGDzIR0v3CQv3JL?si=4b00f842dc054239" target="_blank">3º Gnarly | KATSEYE</a>
+                <p></p>
+                <a href="https://open.spotify.com/intl-pt/track/1xOqGUkyxGQRdCvGpvWKmL?si=7404253be2c54788" target="_blank">4º Gabriela | KATSEYE</a>
+                <p></p>
+                <a href="https://open.spotify.com/intl-pt/track/5bKogHKk8pvWG6l25Jw2Lw?si=ec82e38a74ff497f" target="_blank">5º Lip Service | JADE</a>
+                <p>Artistas mais ouvidos</p>
+                <a href="https://open.spotify.com/intl-pt/artist/3c0gDdb9lhnHGFtP4prQpn?si=NR4mNPfUSDGiXcWhdA60hw" target="_blank">1º KATSEYE</a>
+                <p></p>
+                <a href="https://open.spotify.com/intl-pt/artist/6jJ0s89eD6GaHleKKya26X?si=LRawlYTXQsyALuCmSvSrbA" target="_blank">2º Katy Perry</a>
+                <p></p>
+                <a href="https://open.spotify.com/intl-pt/artist/24b0qNYNgeOfpP5rbljIB3?si=w8of-ooqSVCeLAXu6WZIoQ" target="_blank">3º JADE</a>
+                <p></p>
+                <a href="https://open.spotify.com/intl-pt/artist/66CXWjxzNUsdJxJ2JdwvnR?si=yO65WtFaTF6SjbGSdyORdg" target="_blank">4º Ariana Grande</a>
+                <p></p>
+                <a href="https://open.spotify.com/intl-pt/artist/1HY2Jd0NmPuamShAr6KMms?si=24fdnvV9RC-JoED6MMcJKA" target="_blank">5º Lady Gaga</a>
+            </article> -->
+
+                 <!-- <article class="card"> -->
+                <!-- <h2>Meu mês | Músicas e Artistas</h2>
+                <p>Outubro 2025</p>
+                <p>Aqui você encontra as músicas e artistas mais ouvidos por mim no mês!</p>
+                <p>Músicas mais ouvidas</p>
+                <a href="https://open.spotify.com/intl-pt/track/1CPZ5BxNNd0n0nF4Orb9JS?si=bd76c35a7b744ae3" target="_blank">1º  Golden | HUNTR/X (KPop Demon Hunters Cast)</a>
+                <p></p>
+                <a href="https://open.spotify.com/intl-pt/track/3i0uu4DEpcmEAudChpVDBh?si=93357acb1bd142db" target="_blank">2º Teary Eyes | Katy Perry</a>
+                <p></p>
+                <a href="https://open.spotify.com/intl-pt/track/7EIPVo13rl0uwKbjubMnc7?si=6acec89731b24d21" target="_blank">3º I'M HIS, HE'S MINE (feat. Doechii) | Katy Perry</a>
+                <p></p>
+                <a href="https://open.spotify.com/intl-pt/track/1WUsiRA6CCf6FmFzkt88fa?si=cbf30edac7fa40d5" target="_blank">4º CRUSH | Katy Perry</a>
+                <p></p>
+                <a href="https://open.spotify.com/intl-pt/track/3UxPCKSa8fPIhP7KMSD0HW?si=96ba157184234afc" target="_blank">5º ARTIFICIAL (feat. JID) | Katy Perry</a>
+                <p>Artistas mais ouvidos</p>
+                <a href="https://open.spotify.com/intl-pt/artist/6jJ0s89eD6GaHleKKya26X?si=LRawlYTXQsyALuCmSvSrbA" target="_blank">1º  Katy Perry</a>
+                <p></p>
+                <a href="https://open.spotify.com/intl-pt/artist/66CXWjxzNUsdJxJ2JdwvnR?si=yO65WtFaTF6SjbGSdyORdg" target="_blank">2º Ariana Grande</a>
+                <p></p>
+                <a href="https://open.spotify.com/intl-pt/artist/2yNNYQBChuox9A5Ka93BIn?si=ygqkYHRHQICCP_ZtJCKODA" target="_blank">3º HUNTR/X (KPop Demon Hunters Cast)</a>
+                <p></p>
+                <a href="https://open.spotify.com/intl-pt/artist/3c0gDdb9lhnHGFtP4prQpn?si=NR4mNPfUSDGiXcWhdA60hw" target="_blank">4º KATSEYE</a>
+                <p></p>
+                <a href="https://open.spotify.com/intl-pt/artist/6qqNVTkY8uBg9cP3Jd7DAH?si=ZRSH_G4VRviU9RFgZVQqzA" target="_blank">5º Billie Eilish</a>
+            </article> -->
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <ul class="footer-links">
+            <li>
+                <a href="https://www.instagram.com/sergiobozere/#" target="_blank">Instagram</a>
+            </li>
+            <li>
+                <a href="https://open.spotify.com/user/12182838972?si=3i7S7WUTTjicOyaDgaf9mQ&nd=1&dlsi=72e76d8599464771" target="_blank">Spotify</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

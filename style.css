@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap'); /* Importa Montserrat para títulos e Roboto para corpo */
+
+* {
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
+}
+
+:root {
+    --primary-color: #0099ff; /* Cor primária (Azul Elétrico) para destaques */
+    --secondary-color: #e8eaed; /* Cor secundária (cinza claro) */
+    --tertiary-color: #b3b3b3; /* Cor terciária (cinza médio) para placeholders e textos secundários */
+    --bg-color: #121212; /* Cor de fundo principal (Cinza escuro/preto) */
+}
+
+body {
+    margin: 0; /* Remove a margem padrão do body */
+    /* Aplica um degradê de cima para baixo, do seu --bg-color para um tom mais escuro */
+    background: linear-gradient(to bottom, #191414, var(--bg-color));
+    color: var(--secondary-color); /* Define a cor do texto padrão usando uma variável */
+    font-family: "Roboto", sans-serif; /* Define a fonte padrão para o corpo do texto */
+    min-height: 100vh; /* Garante que o corpo ocupe pelo menos toda a altura da tela */
+}
+
+header {
+    padding: 1rem; /* Espaçamento interno reduzido */
+    display: flex; /* Habilita o layout flexbox */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: space-around; /* Distribui os itens com espaço ao redor */
+    position: sticky; /* Mantém o cabeçalho fixo no topo ao rolar a página */
+    top: 0; /* Posição do topo quando sticky */
+    /* Adiciona a imagem de fundo com uma sobreposição escura para legibilidade */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/cabecalho.png');
+    background-size: cover; /* Faz a imagem cobrir todo o cabeçalho */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    z-index: 10; /* Define a ordem de empilhamento para ficar sobre outros elementos */
+    /* A borda inferior pode não ser mais necessária ou pode ser ajustada */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    gap: 1rem; /* Espaçamento entre os elementos flex */
+}
+
+header h1 {
+    margin: 0; /* Remove a margem padrão */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif; /* Define a fonte para todos os títulos */
+}
+
+#logo {
+    display: flex; /* Alinha texto e equalizador na mesma linha */
+    align-items: center; /* Centraliza verticalmente */
+    gap: 0.8rem; /* Espaçamento entre os elementos */
+    font-size: 2.2rem; /* Tamanho do texto do logo */
+    font-weight: 600; /* Peso da fonte, um pouco mais marcante */
+    color: var(--secondary-color); /* Cor base do texto (branco) */
+    margin: 0;
+    /* Efeito de brilho neon */
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 0 0 10px var(--primary-color), 0 0 15px var(--primary-color);
+    /* Adiciona a animação de fade-in */
+    animation: fadeInLogo 0.8s ease-out forwards;
+}
+
+.equalizer {
+    display: flex;
+    align-items: flex-end; /* Alinha as barras pela base */
+    gap: 4px;
+    height: 2rem; /* Altura máxima do equalizador */
+}
+
+.equalizer span {
+    width: 5px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    box-shadow: 0 0 5px var(--primary-color);
+    animation: equalize 1.5s infinite ease-in-out;
+}
+
+/* Adiciona atrasos diferentes para cada barra, criando a animação descompassada */
+.equalizer span:nth-child(2) {
+    animation-delay: -0.5s;
+}
+
+.equalizer span:nth-child(3) {
+    animation-delay: -1s;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--tertiary-color);
+    border-radius: 50px; /* Cria o formato de pílula */
+    padding: 0 0.5rem 0 1rem;
+    transition: all 0.2s ease;
+}
+
+.search-container:focus-within {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.1rem var(--primary-color);
+}
+
+.search-icon {
+    color: var(--tertiary-color);
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+#campo-busca {
+    padding: 0.75rem 0.5rem;
+    border: none;
+    background: transparent; /* Fundo transparente para herdar do container */
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem; /* Tamanho da fonte */
+    width: 30rem; /* Largura do input */
+    color: var(--secondary-color); /* Cor do texto digitado */
+    outline: none; /* Remove a borda de foco padrão */
+}
+
+#campo-busca::placeholder {
+    color: var(--tertiary-color);
+}
+
+
+#botao-busca {
+    /* Transforma o botão em um círculo */
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 0;
+    /* Estilo geral */
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background-color: transparent; /* Botão transparente por padrão */
+    position: relative; /* Permite posicionar o ícone dentro */
+}
+
+/* Ícone de Lupa (Busca) */
+#botao-busca::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 50%;
+    transform: translate(-90%, -60%);
+    transition: border-color 0.2s ease;
+}
+#botao-busca::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+    height: 8px;
+    background-color: var(--secondary-color);
+    transform: translate(150%, 100%) rotate(-45deg);
+    transition: background-color 0.2s ease;
+}
+
+#botao-busca:hover {
+    background-color: var(--primary-color); /* Ganha cor no hover */
+    box-shadow: 0 0 0 0.1rem #33adff; /* Adiciona uma sombra de caixa */
+}
+
+#botao-busca:hover::before {
+    border-color: #000000;
+}
+#botao-busca:hover::after {
+    background-color: #000000;
+}
+
+#botao-busca:active {
+    transform: scale(0.98); /* Efeito de clique (diminui o tamanho) */
+}
+
+.card-container {
+    display: grid;
+    /* Cria colunas flexíveis com no mínimo 350px e no máximo 1 fração do espaço */
+    perspective: 1000px; /* Adiciona perspectiva para o efeito 3D */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* <-- ALTERE AQUI para a largura mínima do card */
+    gap: 1.5rem; /* Espaçamento entre os cards reduzido */
+    padding: 1.2rem; /* Espaçamento ao redor do container */
+    justify-content: center; /* Centraliza os cards quando há espaço sobrando */
+}
+
+.btn-voltar {
+    /* Formato circular, igual ao botão de busca */
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    /* Estilo e transição */
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+/* Ícone de Seta (Voltar) */
+.btn-voltar::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid var(--secondary-color);
+    border-left: 2px solid var(--secondary-color);
+    transform: rotate(-45deg);
+    transition: border-color 0.2s ease;
+}
+
+.btn-voltar:hover {
+    background-color: var(--primary-color);
+}
+
+.btn-voltar:hover::before {
+    border-color: #000000;
+}
+
+main {
+    max-width: 80rem; /* Largura máxima do conteúdo principal */
+    margin: 0 auto; /* Centraliza o conteúdo principal horizontalmente */
+}
+
+article {
+    background: #181818; /* Cor de fundo sólida para os cards */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidade */
+    overflow: hidden; /* Garante que a imagem não vaze das bordas arredondadas */
+    display: flex;
+    flex-direction: column;
+    transform-style: preserve-3d; /* Habilita o contexto 3D para os filhos */
+    /* Estado inicial para a animação de entrada */
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.4s ease-out, box-shadow 0.4s ease-out;
+}
+
+article.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card-visual-header {
+    position: relative; /* Essencial para sobrepor o ícone de play */
+    aspect-ratio: 1 / 1; /* Garante que o cabeçalho seja sempre um quadrado */
+    background-color: #282828; /* Um cinza escuro para a capa da playlist */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Padrão de raios neon no fundo para cards sem imagem */
+.card-visual-header-default::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200%; /* Tamanho grande para os raios se estenderem */
+    height: 200%;
+    transform: translate(-50%, -50%);
+    background: repeating-radial-gradient(
+        circle at center,
+        rgba(0, 153, 255, 0.15), /* Cor do raio neon */
+        rgba(0, 153, 255, 0.15) 1px,
+        transparent 1px,
+        transparent 20px /* Espaçamento entre os raios */
+    );
+    opacity: 0.5;
+    animation: rotateRays 20s linear infinite; /* Animação de rotação */
+}
+
+/* Novo padrão de "aurora digital" para os cards "Meu Mês" */
+.card-visual-header-meu-mes {
+    background-color: #101010; /* Cor de fundo mais escura para contraste */
+    position: relative; /* Necessário para o pseudo-elemento */
+    overflow: hidden; /* Garante que a animação não vaze */
+}
+
+.card-visual-header-meu-mes::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    /* Múltiplos gradientes para criar o efeito de aurora */
+    background-image:
+        linear-gradient(135deg, rgba(0, 153, 255, 0.4) 0%, transparent 50%),
+        linear-gradient(315deg, rgba(0, 80, 220, 0.3) 15%, transparent 60%),
+        linear-gradient(225deg, rgba(0, 153, 255, 0.3) 30%, transparent 70%);
+    background-size: 200% 200%;
+    animation: auroraFlow 10s ease-in-out infinite;
+}
+
+@keyframes auroraFlow {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+.card-visual-header-link {
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+.card-visual-header h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+    /* Aplica o mesmo efeito neon do logo principal */
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 0 0 10px var(--primary-color), 0 0 15px var(--primary-color);
+}
+
+.card-header-text {
+    transition: opacity 0.3s ease-out;
+}
+
+.card-header-line1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--tertiary-color);
+    margin: 0;    
+}
+
+.card-header-line2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+    margin: 0.2rem 0 0.5rem 0;
+}
+
+.play-icon-overlay {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* Começa invisível */
+    /* Posiciona o botão no centro e ligeiramente maior */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+/* Usa o mesmo truque do botão de busca para criar o triângulo */
+.play-icon-overlay::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 16px solid #000000;
+    transform: translateX(2px);
+}
+
+article:hover .card-header-text {
+    opacity: 0.1; /* Esmaece o texto para dar foco ao botão */
+}
+
+article:hover .play-icon-overlay {
+    opacity: 1; /* Mostra o botão de play no hover */
+    transform: translate(-50%, -50%) scale(1); /* Centraliza e aumenta para o tamanho normal */
+}
+
+article p {
+    margin: 0.25rem 0; /* Margem superior e inferior reduzida */
+    line-height: 1.5;
+    font-size: 0.9rem; /* Tamanho da fonte reduzido */
+    margin-bottom: 0.5rem; /* Margem inferior */
+    color: var(--secondary-color); /* Cor do texto */
+}
+
+article a {
+    color: var(--tertiary-color); /* Cor do link (cinza claro) */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    font-weight: 200; /* Peso da fonte */
+}
+
+article a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.footer {
+    width: 100%; /* Largura total */
+    margin-top: 2rem; /* Adiciona um espaço acima do rodapé */
+    color: var(--tertiary-color); /* Cor do texto */
+    background-color: #191414; /* Cor de fundo */
+    padding: 15px 20px; /* Espaçamento interno */
+    border-top: 1px solid #3c4043; /* Borda superior */
+    font-size: 0.8rem; /* Tamanho da fonte */
+}
+
+.footer-location {
+    color: #9aa0a6; /* Cor do texto */
+    margin-bottom: 10px; /* Margem inferior */
+}
+
+.footer-links {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Habilita o layout flexbox */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 15px; /* Espaçamento entre os links */
+}
+
+.footer-links a {
+    color: var(--secondary-color); /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: color 0.2s; /* Transição suave para a cor */
+}
+
+.footer-links a:hover {
+    color: var(--secondary-color); /* Muda a cor do link ao passar o mouse */
+}
+
+/* Animação para o logo */
+@keyframes fadeInLogo {
+    from {
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animação das barras do equalizador */
+@keyframes equalize {
+    0%, 100% {
+        height: 10%;
+    }
+    50% {
+        height: 100%;
+    }
+}
+
+/* Animação de rotação para os raios neon */
+@keyframes rotateRays {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@media (max-width: 768px) {
+    header { /* Estilos para telas com largura máxima de 768px */
+        flex-direction: column; /* Organiza os itens do cabeçalho em coluna */
+        padding: 1rem; /* Reduz o espaçamento interno */
+    }
+
+    header h1 { /* Estilos para o h1 no cabeçalho em telas menores */
+        text-align: center; /* Centraliza o texto */
+        margin-bottom: 1rem; /* Adiciona margem inferior */
+    }
+
+#campo-busca { /* Estilos para o input em telas menores */
+        width: 80vw; /* Largura baseada na largura da viewport */
+        max-width: 400px;
+    }
+
+    main { /* Estilos para o main em telas menores */
+        padding: 0 1rem; /* Adiciona espaçamento lateral */
+    }
+
+    article:hover { /* Estilos para o article em telas menores */
+        transform: none; /* Remove o efeito de escala ao passar o mouse */
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 { /* Estilos para o h1 em telas com largura máxima de 480px */
+        font-size: 1rem; /* Reduz ainda mais o tamanho da fonte */
+        max-width: 90vw;
+    }
+
+    .search-container { /* Estilos para a div do cabeçalho em telas muito pequenas */
+        flex-direction: column; /* Organiza em coluna */
+        gap: 0.5rem; /* Espaçamento entre os itens */
+    }
+
+    .footer { /* Estilos para o rodapé em telas muito pequenas */
+        display: none; /* Oculta o rodapé */
+    }
+}

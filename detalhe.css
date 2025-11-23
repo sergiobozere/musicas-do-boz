@@ -1,0 +1,81 @@
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1; /* Fica atrás de todo o conteúdo */
+
+    /* Novo fundo com gradiente radial azul */
+    background: radial-gradient(
+        circle at 50% 0%,
+        rgba(0, 153, 255, 0.2), /* Cor primária azul com baixa opacidade */
+        transparent 60% /* A transição para transparente começa em 60% do raio */
+    );
+}
+
+#detalhe-container {
+    max-width: 600px;
+    width: 100%;
+    margin: 2rem auto;    padding: 1.5rem;
+    background-color: #181818;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+ol {
+    list-style: none;
+    counter-reset: playlist-counter;
+    padding: 0;
+}
+
+ol li {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+    /* Animação de entrada */
+    opacity: 0;
+    animation: fadeInTrack 0.5s ease-out forwards;
+}
+
+ol li:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+ol li::before {
+    content: none; /* Remove a numeração, pois o player já é visualmente distinto */
+}
+
+@keyframes fadeInTrack {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+#detalhe-container h2 {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    margin-top: 0;
+}
+
+#detalhe-container p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--tertiary-color);
+}
+
+#detalhe-container a {
+    display: block;
+    padding: 0.5rem 0;
+    color: var(--secondary-color);
+}

@@ -1,0 +1,342 @@
+[
+    {
+        "nome": "Lançamentos Pop",
+        "mês": "Outubro",
+        "descricao": "Os principais lançamentos da música pop que marcaram o mês de Outubro.",
+        "preview_url": "#",
+        "musicas": [
+            { "nome": "Starlight Echoes | Nova Bloom", "link": "#" },
+            { "nome": "Cybernetic Heart | Orion Pax", "link": "#" },
+            { "nome": "Velvet Midnight | Luna Seraph", "link": "#" },
+            { "nome": "Future Nostalgia (Remix) | Zenith", "link": "#" },
+            { "nome": "Glass Cities | Aura Electra", "link": "#" }
+        ]
+    },    
+    {
+        "nome": "Meu Mês | Músicas e Artistas",
+        "mês": "Outubro",
+        "descricao": "Aqui você encontra as músicas e artistas mais ouvidos por mim no mês!",
+        "imagem": "https://images.unsplash.com/photo-1587270613324-3a79364a1939?auto=format&fit=crop&w=774&q=80",
+    "preview_url": "https://p.scdn.co/mp3-preview/b872935546383957980106de4b4f1565424b6923?cid=cfe923b2d6604394b56b8c4f2de31d6f",
+    "musicas": [
+        { "nome": "Gameboy | KATSEYE", "link": "https://open.spotify.com/intl-pt/track/0LqbLHWFiy0qTfpk1Q1Ggc?si=c6962303c56f4488" },
+        { "nome": "Golden | HUNTR/X", "link": "https://open.spotify.com/intl-pt/track/1CPZ5BxNNd0n0nF4Orb9JS?si=bd76c35a7b744ae3" },
+        { "nome": "Gnarly | KATSEYE", "link": "https://open.spotify.com/intl-pt/track/1j15Ar0qGDzIR0v3CQv3JL?si=4b00f842dc054239" },
+        { "nome": "Gabriela | KATSEYE", "link": "https://open.spotify.com/intl-pt/track/1xOqGUkyxGQRdCvGpvWKmL?si=7404253be2c54788" },
+        { "nome": "Lip Service | JADE", "link": "https://open.spotify.com/intl-pt/track/5bKogHKk8pvWG6l25Jw2Lw?si=ec82e38a74ff497f" }
+    ],
+    "artistas": [
+        { "nome": "KATSEYE", "link": "https://open.spotify.com/intl-pt/artist/3c0gDdb9lhnHGFtP4prQpn?si=NR4mNPfUSDGiXcWhdA60hw" },
+        { "nome": "Katy Perry", "link": "https://open.spotify.com/intl-pt/artist/6jJ0s89eD6GaHleKKya26X?si=LRawlYTXQsyALuCmSvSrbA" },
+        { "nome": "JADE", "link": "https://open.spotify.com/intl-pt/artist/24b0qNYNgeOfpP5rbljIB3?si=w8of-ooqSVCeLAXu6WZIoQ" },
+        { "nome": "Ariana Grande", "link": "https://open.spotify.com/intl-pt/artist/66CXWjxzNUsdJxJ2JdwvnR?si=yO65WtFaTF6SjbGSdyORdg" },
+        { "nome": "Lady Gaga", "link": "https://open.spotify.com/intl-pt/artist/1HY2Jd0NmPuamShAr6KMms?si=24fdnvV9RC-JoED6MMcJKA" }
+    ]
+},
+{
+    "nome": "Lançamentos Pop",
+    "mês": "Setembro",
+    "descricao": "Os principais lançamentos da música pop que marcaram o mês de Setembro.",
+    "preview_url": "#",
+    "musicas": [
+        { "nome": "Neon Dream | Synthwave Sirens", "link": "#" },
+        { "nome": "Fading Lights | Echoes", "link": "#" },
+        { "nome": "Heart of Chrome | The Retrogrades", "link": "#" },
+        { "nome": "Electric Pulse | Voltage", "link": "#" },
+        { "nome": "Sunset Drive | Pacific Coast", "link": "#" }
+    ]
+},
+    {
+    "nome": "Meu Mês | Músicas e Artistas",
+    "mês": "Setembro",
+    "descricao": "Aqui você encontra as músicas e artistas mais ouvidos por mim no mês!",
+    "imagem": "https://images.unsplash.com/photo-1587270613324-3a79364a1939?auto=format&fit=crop&w=774&q=80",
+    "preview_url": "#",
+    "musicas": [
+        { "nome": "Golden | HUNTR/X", "link": "https://open.spotify.com/intl-pt/track/1CPZ5BxNNd0n0nF4Orb9JS?si=bd76c35a7b744ae3" },
+        { "nome": "Teary Eyes | Katy Perry", "link": "https://open.spotify.com/intl-pt/track/3i0uu4DEpcmEAudChpVDBh?si=93357acb1bd142db" },
+        { "nome": "I'M HIS, HE'S MINE (feat. Doechii) | Katy Perry", "link": "https://open.spotify.com/intl-pt/track/7EIPVo13rl0uwKbjubMnc7?si=6acec89731b24d21" },
+        { "nome": "CRUSH | Katy Perry", "link": "https://open.spotify.com/intl-pt/track/1WUsiRA6CCf6FmFzkt88fa?si=cbf30edac7fa40d5" },
+        { "nome": "ARTIFICIAL (feat. JID) | Katy Perry", "link": "https://open.spotify.com/intl-pt/track/3UxPCKSa8fPIhP7KMSD0HW?si=96ba157184234afc" }
+    ],
+    "artistas": [
+        { "nome": "Katy Perry", "link": "https://open.spotify.com/intl-pt/artist/6jJ0s89eD6GaHleKKya26X?si=LRawlYTXQsyALuCmSvSrbA" },
+        { "nome": "Ariana Grande", "link": "https://open.spotify.com/intl-pt/artist/66CXWjxzNUsdJxJ2JdwvnR?si=yO65WtFaTF6SjbGSdyORdg" },
+        { "nome": "HUNTR/X", "link": "https://open.spotify.com/intl-pt/artist/2yNNYQBChuox9A5Ka93BIn?si=ygqkYHRHQICCP_ZtJCKODA" },
+        { "nome": "KATSEYE", "link": "https://open.spotify.com/intl-pt/artist/3c0gDdb9lhnHGFtP4prQpn?si=NR4mNPfUSDGiXcWhdA60hw" },
+        { "nome": "Billie Eilish", "link": "https://open.spotify.com/intl-pt/artist/6qqNVTkY8uBg9cP3Jd7DAH?si=ZRSH_G4VRviU9RFgZVQqzA" }
+    ]
+},
+{
+    "nome": "Lançamentos Pop",
+    "mês": "Agosto",
+    "descricao": "Os principais lançamentos da música pop que marcaram o mês de Agosto.",
+    "preview_url": "#",
+    "musicas": [
+        { "nome": "Summer Haze | Solstice", "link": "#" },
+        { "nome": "Midnight City | Urban Flora", "link": "#" },
+        { "nome": "Chasing the Sun | Daybreak", "link": "#" },
+        { "nome": "Lost in the Rhythm | Groove Armada", "link": "#" },
+        { "nome": "Digital Love | Daft Punk", "link": "#" }
+    ]
+},
+{
+    "nome": "Meu Mês | Músicas e Artistas",
+    "mês": "Agosto",
+    "descricao": "Aqui você encontra as músicas e artistas mais ouvidos por mim no mês!",
+    "imagem": "https://images.unsplash.com/photo-1587270613324-3a79364a1939?auto=format&fit=crop&w=774&q=80",
+    "preview_url": "#",
+    "musicas": [
+        { "nome": "Touch It | Ariana Grande", "link": "https://open.spotify.com/intl-pt/track/6WikCGNUbXFmXoLre7vjeW?si=78ce45c640df4530" },
+        { "nome": "Teary Eyes | Katy Perry", "link": "https://open.spotify.com/intl-pt/track/3i0uu4DEpcmEAudChpVDBh?si=93357acb1bd142db" },
+        { "nome": "Never Really Over | Katy Perry", "link": "https://open.spotify.com/intl-pt/track/5PYQUBXc7NYeI1obMKSJK0?si=4968d33bc9ca4dbe" },
+        { "nome": "Tsunami | Katy Perry", "link": "https://open.spotify.com/intl-pt/track/0frWUvNyEqlfy1WAxBAFbb?si=9027c8df5adf4e25" },
+        { "nome": "NIRVANA | Katy Perry", "link": "https://open.spotify.com/intl-pt/track/2c6yhYLBR3BZhJoIaBZ1hC?si=2ada474722544095" }
+    ],
+    "artistas": [
+        { "nome": "Katy Perry", "link": "https://open.spotify.com/intl-pt/artist/6jJ0s89eD6GaHleKKya26X?si=cwEv5fUQQv2OE2-BKWEMfQ" },
+        { "nome": "Ariana Grande", "link": "https://open.spotify.com/intl-pt/artist/66CXWjxzNUsdJxJ2JdwvnR?si=yO65WtFaTF6SjbGSdyORdg" },
+        { "nome": "Litte Mix", "link": "https://open.spotify.com/intl-pt/artist/3e7awlrlDSwF3iM0WBjGMp?si=NG4IH_-nRTKDLbUJ1oKFbA" },
+        { "nome": "Lady Gaga", "link": "https://open.spotify.com/intl-pt/artist/1HY2Jd0NmPuamShAr6KMms?si=24fdnvV9RC-JoED6MMcJKA" },
+        { "nome": "Sabrina Carpenter", "link": "https://open.spotify.com/intl-pt/artist/74KM79TiuVKeVCqs8QtB0B?si=aycZgpQeSB6OQAGtEdmfWQ" }
+    ]
+},
+{
+    "nome": "Lançamentos Pop",
+    "mês": "Julho",
+    "descricao": "Os principais lançamentos da música pop que marcaram o mês de Julho.",
+    "preview_url": "#",
+    "musicas": [
+        { "nome": "Ocean Drive | Duke Dumont", "link": "#" },
+        { "nome": "Firestone | Kygo", "link": "#" },
+        { "nome": "Waves | Mr. Probz", "link": "#" },
+        { "nome": "Stolen Dance | Milky Chance", "link": "#" },
+        { "nome": "Jubel | Klingande", "link": "#" }
+    ]
+},
+{
+    "nome": "Meu Mês | Músicas e Artistas",
+    "mês": "Julho",
+    "descricao": "Aqui você encontra as músicas e artistas mais ouvidos por mim no mês!",
+    "imagem": "https://images.unsplash.com/photo-1587270613324-3a79364a1939?auto=format&fit=crop&w=774&q=80",
+    "preview_url": "#",
+    "musicas": [
+        { "nome": "Gabriela | KATSEYE", "link": "https://open.spotify.com/intl-pt/track/1xOqGUkyxGQRdCvGpvWKmL?si=7404253be2c54788" },
+        { "nome": "Touch It | Ariana Grande", "link": "https://open.spotify.com/intl-pt/track/6WikCGNUbXFmXoLre7vjeW?si=78ce45c640df4530" },
+        { "nome": "Vanish Into You | Lady Gaga", "link": "https://open.spotify.com/intl-pt/track/5IoPnNiYAOvHHJpz13wzRL?si=9b5a42d4d1254eea" },
+        { "nome": "Die With A Smile | Lady Gaga", "link": "https://open.spotify.com/intl-pt/track/2plbrEY59IikOBgBGLjaoe?si=8ba75ae1d0bd429e" },
+        { "nome": "Tsunami | Katy Perry", "link": "https://open.spotify.com/intl-pt/track/0frWUvNyEqlfy1WAxBAFbb?si=9027c8df5adf4e25" }
+    ],
+    "artistas": [
+        { "nome": "Katy Perry", "link": "https://open.spotify.com/intl-pt/artist/6jJ0s89eD6GaHleKKya26X?si=cwEv5fUQQv2OE2-BKWEMfQ" },
+        { "nome": "Ariana Grande", "link": "https://open.spotify.com/intl-pt/artist/66CXWjxzNUsdJxJ2JdwvnR?si=yO65WtFaTF6SjbGSdyORdg" },
+        { "nome": "Lady Gaga", "link": "https://open.spotify.com/intl-pt/artist/1HY2Jd0NmPuamShAr6KMms?si=24fdnvV9RC-JoED6MMcJKA" },
+        { "nome": "Anitta", "link": "https://open.spotify.com/intl-pt/artist/7FNnA9vBm6EKceENgCGRMb?si=agi7ncZRT-G-z5lsIronw" },
+        { "nome": "Sabrina Carpenter", "link": "https://open.spotify.com/intl-pt/artist/74KM79TiuVKeVCqs8QtB0B?si=aycZgpQeSB6OQAGtEdmfWQ" }
+    ]
+},
+{
+    "nome": "Lançamentos Pop",
+    "mês": "Junho",
+    "descricao": "Os principais lançamentos da música pop que marcaram o mês de Junho.",
+    "preview_url": "#",
+    "musicas": [
+        { "nome": "Solar Power | Lorde", "link": "#" },
+        { "nome": "Good 4 U | Olivia Rodrigo", "link": "#" },
+        { "nome": "Kiss Me More | Doja Cat", "link": "#" },
+        { "nome": "Levitating | Dua Lipa", "link": "#" },
+        { "nome": "Save Your Tears | The Weeknd", "link": "#" }
+    ]
+},
+{
+    "nome": "Meu Mês | Músicas e Artistas",
+    "mês": "Junho",
+    "descricao": "Aqui você encontra as músicas e artistas mais ouvidos por mim no mês!",
+    "imagem": "https://images.unsplash.com/photo-1587270613324-3a79364a1939?auto=format&fit=crop&w=774&q=80",
+    "preview_url": "#",
+    "musicas": [
+        { "nome": "Touch It | Ariana Grande", "link": "https://open.spotify.com/intl-pt/track/6WikCGNUbXFmXoLre7vjeW?si=78ce45c640df4530" },
+        { "nome": "Tsunami | Katy Perry", "link": "https://open.spotify.com/intl-pt/track/0frWUvNyEqlfy1WAxBAFbb?si=9027c8df5adf4e25" },
+        { "nome": "Die With A Smile | Lady Gaga", "link": "https://open.spotify.com/intl-pt/track/2plbrEY59IikOBgBGLjaoe?si=8ba75ae1d0bd429e" },
+        { "nome": "twilight zone | Ariana Grande", "link": "https://open.spotify.com/intl-pt/track/1edcyazKIdKrIuz9cWpXU6?si=a4db9c9ecef44fb2" },
+        { "nome": "Teary Eyes | Katy Perry", "link": "https://open.spotify.com/intl-pt/track/3i0uu4DEpcmEAudChpVDBh?si=93357acb1bd142db" }
+    ],
+    "artistas": [
+        { "nome": "Katy Perry", "link": "https://open.spotify.com/intl-pt/artist/6jJ0s89eD6GaHleKKya26X?si=cwEv5fUQQv2OE2-BKWEMfQ" },
+        { "nome": "Ariana Grande", "link": "https://open.spotify.com/intl-pt/artist/66CXWjxzNUsdJxJ2JdwvnR?si=yO65WtFaTF6SjbGSdyORdg" },
+        { "nome": "Lady Gaga", "link": "https://open.spotify.com/intl-pt/artist/1HY2Jd0NmPuamShAr6KMms?si=24fdnvV9RC-JoED6MMcJKA" },
+        { "nome": "Anitta", "link": "https://open.spotify.com/intl-pt/artist/7FNnA9vBm6EKceENgCGRMb?si=agi7ncZRT-G-z5lsIronw" },
+        { "nome": "Sabrina Carpenter", "link": "https://open.spotify.com/intl-pt/artist/74KM79TiuVKeVCqs8QtB0B?si=aycZgpQeSB6OQAGtEdmfWQ" }
+    ]
+},
+{
+    "nome": "Lançamentos Pop",
+    "mês": "Maio",
+    "descricao": "Os principais lançamentos da música pop que marcaram o mês de Maio.",
+    "preview_url": "#",
+    "musicas": [
+        { "nome": "Deja Vu | Olivia Rodrigo", "link": "#" },
+        { "nome": "Peaches | Justin Bieber", "link": "#" },
+        { "nome": "Montero (Call Me By Your Name) | Lil Nas X", "link": "#" },
+        { "nome": "Leave The Door Open | Silk Sonic", "link": "#" },
+        { "nome": "Astronaut In The Ocean | Masked Wolf", "link": "#" }
+    ]
+},
+{
+    "nome": "Meu Mês | Músicas e Artistas",
+    "mês": "Maio",
+    "descricao": "Aqui você encontra as músicas e artistas mais ouvidos por mim no mês!",
+    "imagem": "https://images.unsplash.com/photo-1587270613324-3a79364a1939?auto=format&fit=crop&w=774&q=80",
+    "preview_url": "#",
+    "musicas": [
+        { "nome": "You (feat. Troye Sivan, Tate McRae) | Regard", "link": "https://open.spotify.com/intl-pt/track/2cc8Sw1OnCuA5bV8nqWqpE?si=88c89d2d7f694996" },
+        { "nome": "Vanish Into You | Lady Gaga", "link": "https://open.spotify.com/intl-pt/track/5IoPnNiYAOvHHJpz13wzRL?si=9b5a42d4d1254eea" },
+        { "nome": "Get On Your Knees (feat. Ariana Grande)' | Nicki Minaj", "link": "https://open.spotify.com/intl-pt/track/3Cl3uNEcYu5SDhLLXN5yhi?si=e0756803c1834a88" },
+        { "nome": "FUFN (Fuck You For Now) | JADE", "link": "https://open.spotify.com/intl-pt/track/6f7SVoKbc1zFE5Lg2Qo9P4?si=a8bf57699b4d48a4" },
+        { "nome": "Elevador | Ana Laura Lopes", "link": "https://open.spotify.com/intl-pt/track/2tfiddhzvNPFlC0BwTtWmf?si=2c38aed6f0f24e5e" }
+    ],
+    "artistas": [
+        { "nome": "Lady Gaga", "link": "https://open.spotify.com/intl-pt/artist/1HY2Jd0NmPuamShAr6KMms?si=24fdnvV9RC-JoED6MMcJKA" },
+        { "nome": "Katy Perry", "link": "https://open.spotify.com/intl-pt/artist/6jJ0s89eD6GaHleKKya26X?si=cwEv5fUQQv2OE2-BKWEMfQ" },
+        { "nome": "Ariana Grande", "link": "https://open.spotify.com/intl-pt/artist/66CXWjxzNUsdJxJ2JdwvnR?si=yO65WtFaTF6SjbGSdyORdg" },
+        { "nome": "JADE", "link": "https://open.spotify.com/intl-pt/artist/24b0qNYNgeOfpP5rbljIB3?si=G4JgYxKQQX6xBv1-WZD2rA" },
+        { "nome": "Regard", "link": "https://open.spotify.com/intl-pt/artist/4ofCBoyEiGSePFAG500xev?si=_pGcboNxTuCw3WpgV1QU6g" }
+    ]
+},
+{
+    "nome": "Lançamentos Pop",
+    "mês": "Abril",
+    "descricao": "Os principais lançamentos da música pop que marcaram o mês de Abril.",
+    "preview_url": "#",
+    "musicas": [
+        { "nome": "Drivers License | Olivia Rodrigo", "link": "#" },
+        { "nome": "Up | Cardi B", "link": "#" },
+        { "nome": "Blinding Lights | The Weeknd", "link": "#" },
+        { "nome": "Goosebumps | Travis Scott", "link": "#" },
+        { "nome": "Mood | 24kGoldn", "link": "#" }
+    ]
+},
+{
+    "nome": "Meu Mês | Músicas e Artistas",
+    "mês": "Abril",
+    "descricao": "Aqui você encontra as músicas e artistas mais ouvidos por mim no mês!",
+    "imagem": "https://images.unsplash.com/photo-1587270613324-3a79364a1939?auto=format&fit=crop&w=774&q=80",
+    "preview_url": "#",
+    "musicas": [
+        { "nome": "Elevador | Ana Laura Lopes", "link": "https://open.spotify.com/intl-pt/track/2tfiddhzvNPFlC0BwTtWmf?si=2c38aed6f0f24e5e" },
+        { "nome": "FUFN (Fuck You For Now) | JADE", "link": "https://open.spotify.com/intl-pt/track/6f7SVoKbc1zFE5Lg2Qo9P4?si=a8bf57699b4d48a4" },
+        { "nome": "Young And Beautiful | Lana Del Rey", "link": "https://open.spotify.com/intl-pt/track/2nMeu6UenVvwUktBCpLMK9?si=109d6db96c684e8c" },
+        { "nome": "Fantasma | Ana Laura Lopes", "link": "https://open.spotify.com/intl-pt/track/42cbAqfGrflUTmn7N9jONd?si=46af14cf04434777" },
+        { "nome": "Revolving door | Tate McRae", "link": "https://open.spotify.com/intl-pt/track/541sN2qNfIlllGn9nGOQoC?si=2286a5372d234b13" }
+    ],
+    "artistas": [
+        { "nome": "Katy Perry", "link": "https://open.spotify.com/intl-pt/artist/6jJ0s89eD6GaHleKKya26X?si=cwEv5fUQQv2OE2-BKWEMfQ" },
+        { "nome": "Ana Laura Lopes", "link": "https://open.spotify.com/intl-pt/artist/0uGD30yANzeWbNUAQoiJF2?si=iGDTtU3bR-GdYj4YFOZIhw" },
+        { "nome": "JADE", "link": "https://open.spotify.com/intl-pt/artist/24b0qNYNgeOfpP5rbljIB3?si=G4JgYxKQQX6xBv1-WZD2rA" },
+        { "nome": "Anitta", "link": "https://open.spotify.com/intl-pt/artist/7FNnA9vBm6EKceENgCGRMb?si=agi7ncZRT-G-z5lsIronw" },
+        { "nome": "Sabrina Carpenter", "link": "https://open.spotify.com/intl-pt/artist/74KM79TiuVKeVCqs8QtB0B?si=aycZgpQeSB6OQAGtEdmfWQ" }
+    ]
+},
+{
+    "nome": "Lançamentos Pop",
+    "mês": "Março",
+    "descricao": "Os principais lançamentos da música pop que marcaram o mês de Março.",
+    "preview_url": "#",
+    "musicas": [
+        { "nome": "Therefore I Am | Billie Eilish", "link": "#" },
+        { "nome": "Positions | Ariana Grande", "link": "#" },
+        { "nome": "Holy | Justin Bieber", "link": "#" },
+        { "nome": "Dynamite | BTS", "link": "#" },
+        { "nome": "WAP | Cardi B", "link": "#" }
+    ]
+},
+{
+    "nome": "Meu Mês | Músicas e Artistas",
+    "mês": "Março",
+    "descricao": "Aqui você encontra as músicas e artistas mais ouvidos por mim no mês!",
+    "imagem": "https://images.unsplash.com/photo-1587270613324-3a79364a1939?auto=format&fit=crop&w=774&q=80",
+    "preview_url": "#",
+    "musicas": [
+        { "nome": "FUFN (Fuck You For Now) | JADE", "link": "https://open.spotify.com/intl-pt/track/6f7SVoKbc1zFE5Lg2Qo9P4?si=a8bf57699b4d48a4" },
+        { "nome": "Angel Of My Dreams | JADE", "link": "https://open.spotify.com/intl-pt/track/3Zu0AWO9PN2lP2kCls5mkq?si=76dd36882e444853" },
+        { "nome": "IT girl | JADE", "link": "https://open.spotify.com/intl-pt/track/0kiCW8500jwWh2Ld4ccSXq?si=b3b05c0d041d4c88" },
+        { "nome": "Fantasy | JADE", "link": "https://open.spotify.com/intl-pt/track/62PJTZB39yVCh6uso40aJi?si=8328e4d950004b83" },
+        { "nome": "Midnight Cowboy | JADE", "link": "https://open.spotify.com/intl-pt/track/4zrnaKcJWGYVfGZqmCOELM?si=50b9477bac9d4be2" }
+    ],
+    "artistas": [
+        { "nome": "JADE", "link": "https://open.spotify.com/intl-pt/artist/24b0qNYNgeOfpP5rbljIB3?si=G4JgYxKQQX6xBv1-WZD2rA" },
+        { "nome": "Anitta", "link": "https://open.spotify.com/intl-pt/artist/7FNnA9vBm6EKceENgCGRMb?si=agi7ncZRT-G-z5lsIronw" },
+        { "nome": "Ariana Grande", "link": "https://open.spotify.com/intl-pt/artist/66CXWjxzNUsdJxJ2JdwvnR?si=yO65WtFaTF6SjbGSdyORdg" },
+        { "nome": "Katy Perry", "link": "https://open.spotify.com/intl-pt/artist/6jJ0s89eD6GaHleKKya26X?si=cwEv5fUQQv2OE2-BKWEMfQ" },
+        { "nome": "Lady Gaga", "link": "https://open.spotify.com/intl-pt/artist/1HY2Jd0NmPuamShAr6KMms?si=24fdnvV9RC-JoED6MMcJKA" }
+    ]
+},
+{
+    "nome": "Lançamentos Pop",
+    "mês": "Fevereiro",
+    "descricao": "Os principais lançamentos da música pop que marcaram o mês de Fevereiro.",
+    "preview_url": "#",
+    "musicas": [
+        { "nome": "Watermelon Sugar | Harry Styles", "link": "#" },
+        { "nome": "Savage Love | Jawsh 685", "link": "#" },
+        { "nome": "Rockstar | DaBaby", "link": "#" },
+        { "nome": "Don't Start Now | Dua Lipa", "link": "#" },
+        { "nome": "Circles | Post Malone", "link": "#" }
+    ]
+},
+{
+    "nome": "Meu Mês | Músicas e Artistas",
+    "mês": "Fevereiro",
+    "descricao": "Aqui você encontra as músicas e artistas mais ouvidos por mim no mês!",
+    "imagem": "https://images.unsplash.com/photo-1587270613324-3a79364a1939?auto=format&fit=crop&w=774&q=80",
+    "preview_url": "#",
+    "musicas": [
+        { "nome": "Young And Beautiful | Lana Del Rey", "link": "https://open.spotify.com/intl-pt/track/2nMeu6UenVvwUktBCpLMK9?si=109d6db96c684e8c" },
+        { "nome": "Born Again (feat. Doja Cat, RAYE)", "link": "https://open.spotify.com/intl-pt/track/7KNmIjcmGJIBrhP2s5Vioe?si=a6c197d940914131" },
+        { "nome": "Do What U Want (feat. Christina Aguilera) | Lady Gaga", "link": "https://open.spotify.com/intl-pt/album/5R9DO1cXTOaw9p7nd2emkm?si=VsYTifB0SWSUzijFlwEk1A" },
+        { "nome": "Abracadabra | Lady Gaga", "link": "https://open.spotify.com/intl-pt/track/2LHNTC9QZxsL3nWpt8iaSR?si=d91a24a4408a4c7b" },
+        { "nome": "Fantasy | JADE", "link": "https://open.spotify.com/intl-pt/track/62PJTZB39yVCh6uso40aJi?si=8328e4d950004b83" }
+    ],
+    "artistas": [
+        { "nome": "JADE", "link": "https://open.spotify.com/intl-pt/artist/24b0qNYNgeOfpP5rbljIB3?si=G4JgYxKQQX6xBv1-WZD2rA" },
+        { "nome": "Lady Gaga", "link": "https://open.spotify.com/intl-pt/artist/1HY2Jd0NmPuamShAr6KMms?si=24fdnvV9RC-JoED6MMcJKA" },
+        { "nome": "Sabrina Carpenter", "link": "https://open.spotify.com/intl-pt/artist/74KM79TiuVKeVCqs8QtB0B?si=aycZgpQeSB6OQAGtEdmfWQ" },
+        { "nome": "Anitta", "link": "https://open.spotify.com/intl-pt/artist/7FNnA9vBm6EKceENgCGRMb?si=agi7ncZRT-G-z5lsIronw" },
+        { "nome": "Katy Perry", "link": "https://open.spotify.com/intl-pt/artist/6jJ0s89eD6GaHleKKya26X?si=cwEv5fUQQv2OE2-BKWEMfQ" }
+    ]
+},
+{
+    "nome": "Lançamentos Pop",
+    "mês": "Janeiro",
+    "descricao": "Os principais lançamentos da música pop que marcaram o mês de Janeiro.",
+    "preview_url": "#",
+    "musicas": [
+        { "nome": "The Box | Roddy Ricch", "link": "#" },
+        { "nome": "Life Is Good | Future", "link": "#" },
+        { "nome": "Memories | Maroon 5", "link": "#" },
+        { "nome": "Someone You Loved | Lewis Capaldi", "link": "#" },
+        { "nome": "Bad Guy | Billie Eilish", "link": "#" }
+    ]
+},
+{
+    "nome": "Meu Mês | Músicas e Artistas",
+    "mês": "Janeiro",
+    "descricao": "Aqui você encontra as músicas e artistas mais ouvidos por mim no mês!",
+    "imagem": "https://images.unsplash.com/photo-1587270613324-3a79364a1939?auto=format&fit=crop&w=774&q=80",
+    "preview_url": "#",
+    "musicas": [
+        { "nome": "Fantasy | JADE", "link": "https://open.spotify.com/intl-pt/track/62PJTZB39yVCh6uso40aJi?si=8328e4d950004b83" },
+        { "nome": "Good Luck, Babe! | Chappell Roan", "link": "https://open.spotify.com/intl-pt/track/0WbMK4wrZ1wFSty9F7FCgu?si=9bcb74fcdfeb45ec" },
+        { "nome": "Sem Freio | Anitta, MC Livinho", "link": "https://open.spotify.com/intl-pt/track/7bHZvrBA77wblLZF1edUnu?si=da5eda21aa124f95" },
+        { "nome": "Angel Of My Dreams | JADE", "link": "https://open.spotify.com/intl-pt/track/3Zu0AWO9PN2lP2kCls5mkq?si=76dd36882e444853" },
+        { "nome": "we can't be friends (wait for your love) | Ariana Grande", "link": "https://open.spotify.com/intl-pt/track/51ZQ1vr10ffzbwIjDCwqm4?si=8e4685b95fc54d83" }
+    ],
+    "artistas": [
+        { "nome": "Anitta", "link": "https://open.spotify.com/intl-pt/artist/7FNnA9vBm6EKceENgCGRMb?si=agi7ncZRT-G-z5lsIronwQ" },
+        { "nome": "JADE", "link": "https://open.spotify.com/intl-pt/artist/24b0qNYNgeOfpP5rbljIB3?si=G4JgYxKQQX6xBv1-WZD2rA" },
+        { "nome": "Katy Perry", "link": "https://open.spotify.com/intl-pt/artist/6jJ0s89eD6GaHleKKya26X?si=cwEv5fUQQv2OE2-BKWEMfQ" },
+        { "nome": "Dua Lipa", "link": "https://open.spotify.com/intl-pt/artist/6M2wZ9GZgrQXHCFfjv46we?si=3v6W_NJoRtuLHithb27Oqw" },
+        { "nome": "Sabrina Carpenter", "link": "https://open.spotify.com/intl-pt/artist/74KM79TiuVKeVCqs8QtB0B?si=aycZgpQeSB6OQAGtEdmfWQ" }
+    ]
+}
+]
